@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand',sans-serif;
+}
+ul{
+    list-style: none;   
+}
+a{
+    text-decoration: none;
+}
+/*Utiliy classes */
+.primary-text{
+    color: #ec4917;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.btn-primarey{
+    color: red;
+    border: 2px solid brown;
+    background-color: #fff;
+
+}
+.btn-primarey:hover{
+    background-color: rgb(255, 69, 60,0.5);
+}
+   
+
+/*Header Start */
+header{
+    height: 100vh;
+    background: url('./mnbvcxzasdfgjk.jpg') center center/cover no-repeat;
+    position: relative;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(232, 28, 28); */
+}
+#navbar img{
+width: 90px;
+margin-left: 100px;
+}
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+#navbar ul li a{
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+#navbar ul li a:hover{
+    border-bottom: 4px solid #d0ec17;
+}
+header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+header .content h1{
+    font-size: 40px;
+    color:rgb(232, 28, 28) ;
+}
+header .content p{
+    margin: 20px 0 40px;
+    color: rgb(232, 28, 28);
+    font-size: 33px;
+ }
+ /*/////////////////*/
+header ::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: o;
+    /* height: 100%;
+    width: 100%; */
+    background: rgba(232, 236, 234, 0.019);
+} */
+header *{
+    z-index: 10;
+}
+button{
+    width: 72px;
+    height: 28px;
+    font-size: 22px;
+    background-color: #ec4917;
+}
+/*Header end */
+@media only screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    #navbar img {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    #navbar ul {
+        margin: 0;
+    }
+    #navbar ul li {
+        margin-right: 10px;
+    }
+    header .content {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #navbar img {
+        width: 50px; /* حجم الصورة الجديد على الهاتف المحمول */
+    }
+}
+@media only screen and (max-width: 600px) {
+    header .content h1 {
+        font-size: 30px;
+    }
+    header .content p {
+        font-size: 20px;
+        margin: 10px 0 20px;
+    }
+}
+
+
+
+

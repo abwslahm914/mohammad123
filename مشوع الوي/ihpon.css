@@ -1,0 +1,71 @@
+#mklop img{
+    width: 180px;
+    height: 180px;
+}
+#mklop {
+    color: #fff; ;
+    font-size: 28px;
+    background-color: orangered;
+}
+button{
+    color:yellow;
+    font-size: 16px;
+    background-color:orangered;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+    padding: 13px  13px 13px 13px;
+            }  
+            ul{
+                list-style: none;   
+            }
+            #bb{
+                color:red;
+            }
+            #mklop img{
+    width: 180px;
+    height: 180px;
+}
+#mklop {
+    color: #fff; ;
+    font-size: 28px;
+    background-color: orangered;
+}
+button{
+    color:yellow;
+    font-size: 16px;
+    background-color:orangered;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+    padding: 13px  13px 13px 13px;
+            }  
+            ul{
+                list-style: none;   
+            }
+            #bb{
+                color:red;
+            }
+            @media only screen and (min-width: 1200px) {
+          
+              }
+              
+       
+              @media only screen and (max-width: 1199px) and (min-width: 768px) {
+           
+              }
+              
+       
+              @media only screen and (max-width: 767px) {
+             
+                body {
+                 
+                }
+              
+                nav {
+                 
+                }
+     
+              }

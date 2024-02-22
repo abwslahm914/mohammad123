@@ -1,0 +1,43 @@
+#zsaqw img{
+    height: 180px;
+    width: 180px;
+}
+
+main{
+    background-color: orangered;
+}
+button{
+    color:yellow;
+    font-size: 16px;
+    background-color:orangered;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+    padding: 13px  13px 13px 13px;
+            }  
+            ul{
+                list-style: none;   
+            }
+            #zz{
+                color: red;
+            }
+            @media only screen and (max-width: 600px) {
+                #zsaqw {
+                    font-size: 18px;
+                }
+                button {
+                    font-size: 14px;
+                    padding: 10px;
+                }
+            }
+            #zsaqw {
+                color: #fff;
+                font-size: 28px;
+            }
+            button {
+                color: #fff;
+                background-color: orangered;
+                border: 5px solid yellow;
+                padding: 10px;
+            }
